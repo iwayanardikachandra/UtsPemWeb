@@ -1,0 +1,60 @@
+.jumbotron {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+body {
+  color: white;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  backdrop-repeat: no-repeat;
+}
+
+h1 {
+  padding: 5px;
+}
+
+ul li {
+  color: white;
+}
+
+ul li:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+div a img:hover {
+  background-color: grey;
+  border-radius: 5px;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+div a img {
+  width: 40px;
+  justify-content: space-between;
+}
+
+div h1:hover{
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 
+               0 0 20px #fff,
+               0 0 40px #fff,
+               0 0 80px #fff,
+               0 0 120px #fff;
+}
+
+div p:hover{
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 
+               0 0 20px #fff,
+               0 0 40px #fff,
+               0 0 80px #fff,
+               0 0 120px #fff;
+}
+
+div img:hover{
+  transform: scale(1.1);
+    filter: grayscale(100%);
+}

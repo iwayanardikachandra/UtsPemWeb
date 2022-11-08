@@ -1,0 +1,61 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 1rem;
+  }
+  
+.title {
+    margin: 4rem auto 1rem auto;
+    width: 100%;
+    max-width: 40rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h1:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+
+ul li {
+    color: white;
+  
+}
+  
+ul li:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.card {
+    border radius: 1rem;
+    border: 1px solid transparent;
+
+    backdrop-filter: blur(1rem);
+    box-shadow:1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.5);
+    border-right-color: rgba(225, 225, 225, 0.5);
+}
+
+.cb1 {
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+.table {
+    color: white;
+    border: 1px inset white;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+

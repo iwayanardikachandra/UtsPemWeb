@@ -1,0 +1,102 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 1rem;
+  }
+
+ul li {
+    color: white;
+  
+}
+  
+ul li:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.container h1 {
+    margin-top: 50px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 40rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 400px;
+    padding: 5rem 2.5rem;
+
+    border radius: 1rem;
+    border: 1px solid transparent;
+
+    backdrop-filter: blur(1rem);
+    box-shadow:1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+    border-top-color: rgba(225, 225, 225, 0.5);
+    border-left-color: rgba(225, 225, 225, 0.5);
+    border-bottom-color: rgba(225, 225, 225, 0.5);
+    border-right-color: rgba(225, 225, 225, 0.5);
+}
+
+.cb1 {
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+.cb2 {
+    color: black;
+    background: linear-gradient(to right bottom, rgba(225, 225, 225, 0.3), rgba(225, 225, 225, 0.3));
+}
+
+div span:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+
+h1:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+
+div h2:hover{
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 
+                     0 0 20px #fff,
+                     0 0 40px #fff,
+                     0 0 80px #fff,
+                     0 0 120px #fff;
+}
+
+div h4:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+
+div p:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff;
+}
+
